@@ -66,7 +66,7 @@ class Game extends React.Component {
                 squares: squares,
             }]),
             xIsNext: !this.state.xIsNext,
-            stepNumber: history.length(),
+            stepNumber: history.length,
         });
     }
     jumpTo(step) {
